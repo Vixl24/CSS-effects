@@ -10,6 +10,7 @@ body {
     gap: 40px;
 }
 
+
 img { 
     /* Prevent images from exceeding the width of their parent */
     max-width: 100%;
@@ -30,3 +31,32 @@ img {
     font-size: 2em;
     font-weight: bold;
 }
+
+#img-A {
+    /* filter */
+    filter: blur(2px) sepia(20%) ;
+}
+
+#img-B {
+    /* filter */
+    filter: sepia(50%) brightness(100%) ;
+}
+
+#img-C {
+    /* filter */
+    filter: saturate(120%) ;
+}
+
+#click-me {
+    background-color: rgb(62, 85, 0);
+  }
+   
+#click-me:hover {
+    background-color: rgb(132, 180, 0);
+    transition: 50ms;
+    transform: scale(1.2);
+  }
+
+body {
+background-color: chartreuse;
+  }
